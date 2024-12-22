@@ -1,0 +1,57 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.error {
+  color: red;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.controls {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#recordsPerPage {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.pagination span {
+    margin: 0 10px;
+}
